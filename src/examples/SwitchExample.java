@@ -5,7 +5,7 @@ public class SwitchExample {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		
-		int day =2;
+		int day =3;
 		
 		switch (day) {
 		
@@ -24,8 +24,9 @@ public class SwitchExample {
 		case 7: System.out.println("Saturday");
 				
 		default:	System.out.println("Invalid day!");
+		
+	
 		}
-
+	
 	}
-
 }
