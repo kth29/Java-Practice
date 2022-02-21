@@ -6,14 +6,15 @@ public class LoopControl {
 		
 		int count = 0;
 		while (count <=10) {
+			count++;
 			
 			if (count ==9)
 				break;
 			
 			if (count %2 == 0)
-				continue;
+				continue; //instructs JVM that if the number is even, "skip it", else (read otherwise) print it
 			else
-				System.out.println("count");
+				System.out.println(count);
 		}
 		
 		System.out.println("We have exited the loop");
